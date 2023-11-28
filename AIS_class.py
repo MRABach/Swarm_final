@@ -72,12 +72,6 @@ class avoidance_vectors():
             point = geopy.distance.distance(kilometers=a_d).destination(cord,rel_angle)
             #al_pos = (la2, lo2)
             alias_list.append(point)
-        """ 
-        Tester som skriver ut alias listen med formattering
-        print("+"*80)
-        print(alias_list)
-        print("+"*80)
-        """
         return alias_list
     
     #Funksjon som lager unnvikelsesvektorer
